@@ -9,5 +9,5 @@ if someone else wants to contribute to your project, they can fork your reposito
 
 I hope this helps!
 
-### Questions
-If you have any questions, please contact me by email: <Linsur123@outlook.com>
+### Course_notes
+I have created a folder for course notes. You can push your notes to this repository and we will review them.
