@@ -1,7 +1,10 @@
+//written by <Linsur>
+
 package main
 
 import (
 	"fmt"
+
 	"github.com/crawlab-team/crawlab-go-sdk/entity"
 	"github.com/gocolly/colly/v2"
 )
