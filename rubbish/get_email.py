@@ -4,7 +4,7 @@ import os
 import email.utils
 from docx import Document
 from bs4 import BeautifulSoup
-from docx.oxml.ns import qn
+from docx.oxml.ns import qn 
 import traceback
 
 def decode(header):
