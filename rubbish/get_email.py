@@ -1,3 +1,6 @@
+# written by <Linsur>
+# please run this code in terminal or command line to get email attachments and save them to docx files.
+
 import poplib
 import email
 import os
@@ -18,6 +21,10 @@ def decode(header):
         else:
             subject += decoded_part[0]
     return subject
+
+"""
+    将邮件正文粘贴到word文档
+"""
 
 def clean_filename(filename):
     return ''.join(c if c.isalnum() or c in '._-' else '_' for c in filename)
@@ -57,6 +64,10 @@ def save_email_body_to_docx(msg, save_dir):
         print(f"Failed to save email body to docx {cleaned_subject}: {e}")
         traceback.print_exc()
 
+"""
+    下载邮箱附件
+"""
+
 def download_attachment(msg, save_dir):
     for part in msg.walk():
         if part.get_content_disposition() == 'attachment':
@@ -89,8 +100,8 @@ def main():
         return
 
     try:
-        server.user('xifuzongshe@126.com')
-        server.pass_('MNYhR5g2iCsC5tXG')
+        server.user('xxxxxxxxx@126.com')
+        server.pass_('xxxxxxxxxx')
         print("Login successful")
     except Exception as e:
         print(f"Login failed: {e}")
