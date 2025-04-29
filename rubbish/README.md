@@ -14,6 +14,10 @@ This file build an online data processing tool that can be displayed on web page
 
 This file is a web-based EDA tool that can be used to explore and visualize data.
 
+### get_email.py
+
+This file is a script that can get email addresses from a website.
+
 ### baidu_spider.go
 
 This file is a spider that can crawl data from Baidu search engine.
