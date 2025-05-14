@@ -18,6 +18,12 @@ This file is a web-based EDA tool that can be used to explore and visualize data
 
 This file is a script that can get email addresses from a website.
 
+### chess folder
+This folder is a chess game in terminal.
+#### board.py
+#### GameLogic.py
+#### setup.py
+
 ### baidu_spider.go
 
 This file is a spider that can crawl data from Baidu search engine.
